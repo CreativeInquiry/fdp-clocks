@@ -26,4 +26,11 @@ Put sketches in `Contents/Resources/app/sketches/`. Each sketch should be in its
 
 ## Compiling the app from source
 
-1. Download `nodejs` `npm`
+1. Download `nodejs`and `npm`, e.g. `brew install node`.
+2. `cd` into the folder and run `npm install` to install all dependencies automatically.
+3. `npm start` to fire up the electron app.
+
+### To make standalone app
+
+1. Download `electron-packager`, e.g. `npm install -g electron-packager`
+2. `electron-packager .` the "dot" means current directory.

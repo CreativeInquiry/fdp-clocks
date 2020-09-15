@@ -37,6 +37,7 @@ var SETTINGS = {
   FRAME_STYLE:"",
   BODY_STYLE:"",
   BG_COLOR:[0,0,0],
+  START_FULLSCREEN:false,
 }
 
 function loadSettings(){
@@ -44,8 +45,12 @@ function loadSettings(){
   updateStyle();
   ifr.width = SETTINGS.FRAME_W;
   ifr.height = SETTINGS.FRAME_H;
-
+  if (SETTINGS.START_FULLSCREEN){
+    var win = remote.getCurrentWindow();
+    win.setFullScreen(true);
+  }
 }
+
 function saveSettings(){
   fs.writeFileSync("settings.json",JSON.stringify(SETTINGS,null,2));
 }
