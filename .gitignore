@@ -1,4 +1,5 @@
 node_modules
 .DS_Store
 **/.DS_Store
-fdp-clocks-darwin-x64
+fdp-clocks-*
+*.zip
