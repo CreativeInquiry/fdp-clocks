@@ -22,6 +22,7 @@ Put sketches in `Contents/Resources/app/sketches/`. Each sketch should be in its
 | BG_COLOR | `[0,0,0]` | background color (RGB) |
 | FRAME_STYLE | `""` | custom CSS style (overriding) for iframe |
 | BODY_STYLE | `""` | custom CSS style (overriding) for main app body |
+| START_FULLSCREEN | `false` | start the app in fullscreen mode |
 
 
 ## Compiling the app from source
