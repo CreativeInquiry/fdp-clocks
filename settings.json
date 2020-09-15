@@ -1,0 +1,16 @@
+{
+  "SHOW_LABEL": false,
+  "FADE_SPEED": 32,
+  "TIMEOUT": 180000,
+  "FRAME_X": 0,
+  "FRAME_Y": 0,
+  "FRAME_W": 800,
+  "FRAME_H": 600,
+  "FRAME_STYLE": "",
+  "BODY_STYLE": "",
+  "BG_COLOR": [
+    0,
+    0,
+    0
+  ]
+}
